@@ -1,0 +1,23 @@
+# Core dependencies
+streamlit>=1.31.0
+google-generativeai>=0.3.0
+reportlab>=4.0.0
+python-dotenv>=1.0.0
+
+# PDF Generation and Viewing
+reportlab>=4.0.0
+streamlit-pdf-viewer>=0.0.5  # Updated to latest stable version
+
+# Security
+bcrypt>=4.0.0
+
+# Utility packages
+Pillow>=10.0.0  # Required by reportlab for image handling
+python-dateutil>=2.8.0  # Date handling utilities
+typing-extensions>=4.8.0  # Type hinting support
+validators>=0.20.0  # URL validation
+
+# Optional but recommended
+black>=23.0.0  # Code formatting
+flake8>=6.0.0  # Code linting
+pytest>=7.0.0  # Testing framework

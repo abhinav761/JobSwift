@@ -1,0 +1,18 @@
+{
+    "a": {
+        "password": "$2b$12$osypexs4aBP1rfWR.bB6OOXidSnFKTLyJ9xusU5MvJ6ocJl7wsKdS",
+        "email": "a@gmail.com"
+    },
+    "Abhinav": {
+        "password": "$2b$12$9cP1ywnOqXUtLIMr.1UlsOrSV0tVGKuBNoZoojmpHgFedKcC20vue",
+        "email": "kumbamabhinavreddy9@gmail.com"
+    },
+    "vv": {
+        "password": "$2b$12$XqsKMeYmtMKySusOJXLpauLsOsg5qVfWdBj0Mu0QH1o5aee4YZ.EK",
+        "email": "v"
+    },
+    "abcd": {
+        "password": "$2b$12$BFSm/X/yR/F98yFUrff28OzchIMZvdde90ROvCJ61sy6W4rvhKysS",
+        "email": "abcd@gmail.com"
+    }
+}
