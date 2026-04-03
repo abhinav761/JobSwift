@@ -122,7 +122,7 @@ class ResumeBuilderUI:
             self.render_generate_section()
         
         # Update tab selection using JavaScript
-        if st.session_state.active_tab > 0:
+        if st.session_state.active_tab >= 0:
             js = f"""
             <script>
                 var tabs = window.parent.document.querySelectorAll('[data-baseweb="tab-list"] [role="tab"]');

@@ -90,6 +90,7 @@ class ResumeForm:
             digits_only = ''.join(filter(str.isdigit, phone_input))
             
             if digits_only != phone_input:
+                st.session_state.phone_input_field = digits_only
                 st.session_state.phone_number = digits_only
                 st.rerun()
             
