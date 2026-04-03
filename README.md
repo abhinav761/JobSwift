@@ -9,6 +9,22 @@ A Streamlit web application that helps users create professional resumes using G
 - PDF generation and download functionality
 - Professional formatting and layout
 
+## Application Use Cases
+
+- **Job Seekers:** Quickly draft and generate a clean, ATS-friendly professional resume by entering minimal raw text, while letting the AI refine the phrasing and keywords.
+- **Students & Graduates:** Structure academic projects and internships professionally without worrying about formatting or choosing the right action vocabularies.
+- **Career Changers:** Effortlessly re-word experiences using the Gemini AI to better match new industry standards based on inputted skills.
+- **Recruiters & Coaches:** Use as a tool to instantly format and standardize candidates' raw, unstructured professional histories into presentable PDF documents.
+
+## Technologies It Uses
+
+- **Frontend & UI:** [Streamlit](https://streamlit.io/) (for rapid interactive Python web app development)
+- **AI / LLM:** [Google Gemini API](https://aistudio.google.com/) (Generative AI for rewriting bullet points, summaries, and categorizing skills)
+- **PDF Generation:** [ReportLab](https://pypi.org/project/reportlab/) (for assembling the dynamic layout, fonts, and style hierarchy of the downloadable resumes)
+- **Authentication:** `bcrypt` (for secure local user credential hashing and session login)
+- **Data Storage:** JSON / SQLite file-based storage for basic credentials
+- **Environment Management:** `python-dotenv` (for loading secure API keys)
+
 ## Setup Instructions
 
 1. Clone this repository
